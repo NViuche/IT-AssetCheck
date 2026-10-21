@@ -1,0 +1,15 @@
+# Archivos de sistema y temporales
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+~$*
+
+# Editores
+.vscode/
+.idea/
+
+# Salidas generadas por revisiones (pueden contener datos reales de inventarios)
+inventario_registros_por_corregir.csv
+informe_revision*
