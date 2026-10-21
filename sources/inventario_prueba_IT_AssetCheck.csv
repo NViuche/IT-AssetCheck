@@ -1,0 +1,6 @@
+Identificador,Tipo de activo,Responsable,Ubicación,Estado
+ACT-001,Portátil,Equipo Sistemas,Oficina central,Activo
+ACT-002,Monitor,,Oficina central,Activo
+ACT-003,Teléfono,Equipo Soporte,Sede norte,En uso
+ACT-003,Teléfono,Equipo Soporte,Sede norte,Activo
+ACT-004,Servidor,Equipo Infraestructura,Centro de datos,En reparación
