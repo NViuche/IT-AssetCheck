@@ -6,7 +6,7 @@ Esta guía explica cómo probar el agente y el conector de Google Drive con un i
 
 ## 1. Requisitos previos
 
-- Proyecto configurado manualmente en ChatGPT/Codex o en Claude (ver `README.md`).
+- Proyecto configurado manualmente en Claude (ver `README.md`).
 - **Conector de Google Drive activado y autorizado** en tu cuenta, con permiso para leer la carpeta de entrada y crear archivos en la de resultados.
 - Carpeta de entrada `IT AssetCheck`: https://drive.google.com/drive/folders/1w9AiUIoPbnMuG3uyU2y59vfjrmG0ZQIu?usp=sharing
 - Carpeta de salida `Resultados de revisión`: https://drive.google.com/drive/folders/15dm_jQrcj7moKoKZZzbq1ja53ueTWeAF?usp=sharing
