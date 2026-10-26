@@ -1,6 +1,6 @@
 # IT AssetCheck — Descripción del proyecto
 
-IT AssetCheck es un agente creado con Codex para revisar inventarios de activos TI. Los inventarios se suben a una carpeta de Google Drive y el agente los lee mediante el conector de Google Drive, en solo lectura. Detecta registros con información incompleta o inconsistente, señala posibles duplicados, genera un informe de revisión y guarda un CSV de registros que requieren corrección en la carpeta de resultados de Drive, para que una persona responsable revise los hallazgos y aplique las correcciones. También se admiten archivos CSV o Excel adjuntados manualmente.
+IT AssetCheck es un agente creado con Claude para revisar inventarios de activos TI. Los inventarios se suben a una carpeta de Google Drive y el agente los lee mediante el conector de Google Drive, en solo lectura. Detecta registros con información incompleta o inconsistente, señala posibles duplicados, genera un informe de revisión y guarda un CSV de registros que requieren corrección en la carpeta de resultados de Drive, para que una persona responsable revise los hallazgos y aplique las correcciones. También se admiten archivos CSV o Excel adjuntados manualmente.
 
 > Nota: las secciones «Problema», «Justificación» y «Alternativas consideradas» desarrollan el contexto a partir del objetivo y los límites del proyecto; no recogen datos de ningún inventario real.
 
@@ -36,7 +36,7 @@ El agente localiza el archivo que la persona usuaria indica en la carpeta de ent
 
 ## 5. Plataforma agéntica
 
-El agente se crea con **Codex** y se usa desde ChatGPT; el paquete también puede usarse desde Claude. La configuración (proyecto, instrucciones, archivos, Skills y conexión de Google Drive) la realiza una persona manualmente; las funciones disponibles, incluida la creación de archivos y la disponibilidad del conector, dependen de la interfaz y el plan.
+El agente se crea y se usa con **Claude**. La configuración (proyecto, instrucciones, archivos, Skills y conexión de Google Drive) la realiza una persona manualmente; las funciones disponibles, incluida la creación de archivos y la disponibilidad del conector, dependen de la interfaz y el plan.
 
 ## 6. Skills
 
@@ -61,7 +61,7 @@ El agente se crea con **Codex** y se usa desde ChatGPT; el paquete también pued
 
 - Verificado: ambas carpetas existen y pertenecen a la cuenta propietaria del proyecto; la de resultados está dentro de la de entrada; el conector puede consultar sus datos y listar la carpeta de entrada, que contenía archivos CSV; el conector ofrece herramientas para leer, exportar y crear archivos.
 - **Verificado, con riesgo:** ambas carpetas están compartidas como «cualquier persona con el enlace puede editar».
-- No verificado: lectura del contenido de un inventario real de la carpeta, creación efectiva del CSV en `Resultados de revisión`, comportamiento con varias pestañas o archivos grandes, y disponibilidad exacta en ChatGPT/Codex según el plan.
+- No verificado: lectura del contenido de un inventario real de la carpeta, creación efectiva del CSV en `Resultados de revisión`, comportamiento con varias pestañas o archivos grandes, y disponibilidad exacta en Claude según el plan.
 
 **Método alternativo:** adjuntar manualmente el inventario en CSV o Excel en la conversación; el CSV de salida se entrega entonces en la conversación. No existe acceso a carpetas locales ni a otros sistemas externos.
 
