@@ -37,12 +37,12 @@ Los inventarios de activos TI pueden contener campos vacíos, formatos inesperad
 | Archivo | Contenido |
 |---|---|
 | `README.md` | Esta guía. |
-| `01_Descripcion_del_proyecto.md` | Problema, justificación, alternativas, solución, plataforma, Skills, conector, entradas, salidas y reglas de control. |
-| `02_Skill_Analizar_inventarios_TI.md` | Skill «Analizar inventarios TI». |
-| `03_Skill_Generar_informes_de_revision.md` | Skill «Generar informes de revisión». |
-| `04_Guia_de_pruebas.md` | Cómo probar el agente y el conector, y verificar el CSV y el informe. |
-| `sources/inventario_prueba_IT_AssetCheck.csv` | Inventario de prueba. |
-| `LICENSE` | Licencia MIT. |
+| [`01_Descripcion_del_proyecto.md`](01_Descripcion_del_proyecto.md) | Problema, justificación, alternativas, solución, plataforma, Skills, conector, entradas, salidas y reglas de control. |
+| [`02_Skill_Analizar_inventarios_TI.md`](02_Skill_Analizar_inventarios_TI.md) | Skill «Analizar inventarios TI». |
+| [`03_Skill_Generar_informes_de_revision.md`](03_Skill_Generar_informes_de_revision.md) | Skill «Generar informes de revisión». |
+| [`04_Guia_de_pruebas.md`](04_Guia_de_pruebas.md) | Cómo probar el agente y el conector, y verificar el CSV y el informe. |
+| [`sources/inventario_prueba_IT_AssetCheck.csv`](sources/inventario_prueba_IT_AssetCheck.csv) | Inventario de prueba. |
+| [`LICENSE`](LICENSE) | Licencia MIT. |
 | `.gitignore` | Archivos que no se suben al repositorio. |
 
 ## Acceso al inventario: conector de Google Drive

@@ -40,8 +40,8 @@ El agente se crea y se usa con **Claude**. La configuración (proyecto, instrucc
 
 ## 6. Skills
 
-1. **Analizar inventarios TI** (`02_Skill_Analizar_inventarios_TI.md`): localiza y lee el inventario (Google Sheets, CSV o Excel), detecta campos incompletos, formatos inesperados y posibles duplicados, y deja los hallazgos asociados a cada fila o registro.
-2. **Generar informes de revisión** (`03_Skill_Generar_informes_de_revision.md`): organiza los hallazgos en un informe trazable, genera el CSV de registros por corregir y lo guarda en la carpeta de resultados de Drive con el nombre acordado.
+1. **Analizar inventarios TI** ([02_Skill_Analizar_inventarios_TI.md](02_Skill_Analizar_inventarios_TI.md)): localiza y lee el inventario (Google Sheets, CSV o Excel), detecta campos incompletos, formatos inesperados y posibles duplicados, y deja los hallazgos asociados a cada fila o registro.
+2. **Generar informes de revisión** ([03_Skill_Generar_informes_de_revision.md](03_Skill_Generar_informes_de_revision.md)): organiza los hallazgos en un informe trazable, genera el CSV de registros por corregir y lo guarda en la carpeta de resultados de Drive con el nombre acordado.
 
 ## 7. Conector o método de acceso
 
@@ -130,3 +130,12 @@ Las dos carpetas están compartidas públicamente con permiso de edición. Cualq
 - Tratamiento de hojas con varias pestañas.
 - Qué se entrega cuando no hay hallazgos.
 - Comportamiento del conector con archivos grandes, fórmulas o celdas combinadas.
+
+## Documentación relacionada
+
+Este documento define el proyecto en su conjunto. Su desarrollo se detalla en:
+
+- [README](README.md): guía de uso, requisitos, estructura de archivos y configuración del conector de Google Drive.
+- [Skill: Analizar inventarios TI](02_Skill_Analizar_inventarios_TI.md): procedimiento para leer el inventario y detectar los hallazgos.
+- [Skill: Generar informes de revisión](03_Skill_Generar_informes_de_revision.md): procedimiento para convertir esos hallazgos en el informe y el CSV de salida.
+- [Guía de pruebas](04_Guia_de_pruebas.md): cómo comprobar que el agente cumple las entradas, salidas y reglas de control descritas aquí.

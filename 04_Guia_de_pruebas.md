@@ -119,3 +119,13 @@ entrega el CSV en un bloque separado.
 | Fecha | Archivo de entrada | ¿Lo leyó con el conector? | ¿Guardó el CSV en Drive con el nombre esperado? | Resultado | Observaciones |
 |---|---|---|---|---|---|
 | | | | | | |
+
+## Documentación relacionada
+
+Esta guía comprueba el funcionamiento completo del agente. Se relaciona con:
+
+- [README](README.md): requisitos y pasos de uso que deben estar configurados antes de probar.
+- [Descripción del proyecto](01_Descripcion_del_proyecto.md): entradas, salidas y reglas de control que se verifican.
+- [Skill: Analizar inventarios TI](02_Skill_Analizar_inventarios_TI.md): detección de hallazgos que se pone a prueba.
+- [Skill: Generar informes de revisión](03_Skill_Generar_informes_de_revision.md): informe y CSV cuyo resultado se comprueba.
+- [Inventario de prueba](sources/inventario_prueba_IT_AssetCheck.csv): archivo de ejemplo con los casos que debe contener la prueba.

@@ -94,3 +94,11 @@ Hasta que se definan, el agente debe indicar qué criterio aplicó en cada caso 
 - CSV de registros que requieren corrección, con las columnas originales más `Problema detectado` y `Campos que requieren revisión`, guardado en `Resultados de revisión` como `<nombre de entrada>_revision.csv`.
 - Informe de revisión trazable, con el archivo y la pestaña leídos.
 - Estado de entrega de cada archivo y, si procede, el contenido en bloques separados para guardarlo manualmente.
+
+## Documentación relacionada
+
+Esta Skill es el segundo paso de la revisión. Se relaciona con:
+
+- [Descripción del proyecto](01_Descripcion_del_proyecto.md): salidas esperadas y reglas de control que el informe debe respetar.
+- [Skill: Analizar inventarios TI](02_Skill_Analizar_inventarios_TI.md): genera los hallazgos que esta Skill recibe como entrada.
+- [Guía de pruebas](04_Guia_de_pruebas.md): cómo verificar el CSV y el informe generados.

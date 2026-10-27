@@ -57,3 +57,12 @@ Solo se aplican los criterios para los que la persona usuaria ha dado campos o r
 - **Lista por registro afectado**, con los valores originales intactos, todos los problemas del registro agrupados, los campos que requieren revisión y, en los posibles duplicados, el motivo y las filas relacionadas.
 - Nombre exacto del archivo y pestaña leídos, y método de acceso usado (conector de Google Drive o archivo adjunto).
 - Avisos de lectura (archivo, pestaña o columna no accesible) y criterios pendientes por reglas ausentes.
+
+## Documentación relacionada
+
+Esta Skill es el primer paso de la revisión. Se relaciona con:
+
+- [Descripción del proyecto](01_Descripcion_del_proyecto.md): problema, entradas y reglas de control que esta Skill aplica.
+- [Skill: Generar informes de revisión](03_Skill_Generar_informes_de_revision.md): recibe los hallazgos de esta Skill y los convierte en el informe y el CSV.
+- [Guía de pruebas](04_Guia_de_pruebas.md): casos para comprobar que los hallazgos se detectan correctamente.
+- [Inventario de prueba](sources/inventario_prueba_IT_AssetCheck.csv): datos de ejemplo para ejecutar el análisis.
