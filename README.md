@@ -146,3 +146,15 @@ No modifiques el inventario ni completes valores.
 - Tratamiento de hojas con varias pestañas (un CSV por pestaña o uno consolidado).
 - Qué se entrega cuando no hay ningún hallazgo (CSV solo con cabecera o ningún CSV).
 - Comportamiento del conector con archivos grandes, fórmulas o celdas combinadas.
+
+## Documentación relacionada
+
+Este README es la puerta de entrada al proyecto. Desde aquí puedes consultar:
+
+- [Descripción del proyecto](01_Descripcion_del_proyecto.md): problema, solución elegida, Skills, conector, entradas, salidas y reglas de control.
+- [Skill: Analizar inventarios TI](02_Skill_Analizar_inventarios_TI.md): primer paso de la revisión; lee el inventario y detecta los hallazgos.
+- [Skill: Generar informes de revisión](03_Skill_Generar_informes_de_revision.md): segundo paso; convierte los hallazgos en el informe y el CSV de salida.
+- [Guía de pruebas](04_Guia_de_pruebas.md): cómo comprobar que el agente y el conector funcionan como se describe.
+- [Inventario de prueba](sources/inventario_prueba_IT_AssetCheck.csv): archivo de ejemplo para ejecutar las pruebas.
+
+En conjunto, la descripción define qué hace el agente, las dos Skills explican cómo lo hace paso a paso y la guía de pruebas verifica el resultado con el inventario de ejemplo.
