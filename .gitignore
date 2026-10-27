@@ -9,6 +9,7 @@ desktop.ini
 # Editores
 .vscode/
 .idea/
+.obsidian/
 
 # Salidas generadas por revisiones (pueden contener datos reales de inventarios)
 inventario_registros_por_corregir.csv
